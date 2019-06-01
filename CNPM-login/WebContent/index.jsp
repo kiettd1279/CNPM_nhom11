@@ -45,16 +45,23 @@
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 				<form class="login100-form validate-form flex-sb flex-w"
 					action="servletLogin" method="post">
+					
+	//login facebook
 					<span class="login100-form-title p-b-53"> Sign In Withsd </span> <a
 						href="#" class="btn-face m-b-20"> <i
 						class="fa fa-facebook-official"></i> Facebookok
-					</a> <a href="#" class="btn-google m-b-20"> <img
+					</a>
+					
+	// login google
+					<a href="#" class="btn-google m-b-20"> <img
 						src="images/icons/icon-google.png" alt="GOOGLE"> Google
 					</a>
 
 					<div class="p-t-31 p-b-9">
 						<span class="txt1"> Username </span>
 					</div>
+					
+	//login accountg	
 					<div class="wrap-input100 validate-input"
 						data-validate="Vui lòng nhập Username">
 						<input class="input100" type="text" name="username"
