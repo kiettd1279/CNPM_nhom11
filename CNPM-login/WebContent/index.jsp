@@ -61,17 +61,8 @@
 						<span class="txt1"> Username </span>
 					</div>
 					
-	//login accountg	
-					<div class="wrap-input100 validate-input"
-						data-validate="Vui lòng nhập Username">
-						<input class="input100" type="text" name="username"
-							value="<%if (request.getAttribute("username") != null) {%>
-							<%=request.getAttribute("username")%>
-							<%}%>">
-						<span class="focus-input100"></span>
-
-					</div>
-
+	//login account
+					
 					<div class="p-t-13 p-b-9">
 						<p style="color: red;">
 							<%
