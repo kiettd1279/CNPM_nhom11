@@ -62,6 +62,17 @@
 					</div>
 					
 	//login account
+					//xu ly loi khi dag nhap sai mk hoac username
+					<div class="wrap-input100 validate-input"
+						data-validate="Vui lòng nhập Username">
+						<input class="input100" type="text" name="username"
+							value="<%if (request.getAttribute("username") != null) {%>
+							<%=request.getAttribute("username")%>
+							<%}%>">
+						<span class="focus-input100"></span>
+
+					</div>
+
 					
 					<div class="p-t-13 p-b-9">
 						<p style="color: red;">
